@@ -26,6 +26,7 @@ public class GameController : MonoBehaviour
     void Start()
     {
         lastDuckTime = Time.time;
+        QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = targetFrameRate;
     }
 
